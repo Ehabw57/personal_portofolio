@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script type="module" src="module-script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div id="balk" class="header-inner">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+            <a class="logo" href="#">Ehab Hegazy</a>
+            <nav class="nav" aria-label="Primary">
+                <ul id="nav-menu" class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="home" class="section">
+            <div class="container flex-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="accent">Ehab Hegazy</span>.</h1>
+                    <p>A minimalist developer and designer crafting clean, thoughtful experiences.</p>
+                    <div class="cta">
+                        <a class="button primary" href="#work">View Work</a>
+                        <a class="button" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="say visual"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container flex-container">
+                <div class="me visual"> </div>
+                <div class="about-text">
+                    <h2>About</h2>
+                    <p>I enjoy building elegant interfaces with attention to detail and performance. I value clarity, accessibility, and calm design.</p>
+                    <div class="cta">
+                        <a class="button" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--hereeeeeeeeeeeeeeeeeeeeeee-->
+
+        <section id="skills" class="section">
+            <div class="section-head">
+              <h2>Skills</h2>
+              <p>Focused, practical stacks divided by discipline.</p>
+            </div>
+            <div id="skillsContainer"></div>
+        </section>
+
+        <section id="work" class="section">
+                <div class="section-head">
+                    <h2>Selected Work</h2>
+                    <p>Clean layouts, thoughtful interactions, purposeful visuals.</p>
+                </div>
+                <div id="projects"class="grid">
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container flex-container">
+                <div class="call visual"> </div>
+                <div class="contact-text">
+                    <h2>Contact</h2>
+                    <p>Seeking collaborations and opportunities. Let’s make something clear and useful.</p>
+                    <ul class="contact-list">
+                        <li><a href="mailto:you@example.com">you@example.com</a></li>
+                        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
+                    <div class="cta">
+                        <a class="button" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <small>©2025 Ehab Hegazy</small>
+        </div>
+    </footer>
+    
+</body>
