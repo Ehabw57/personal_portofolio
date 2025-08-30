@@ -43,6 +43,7 @@ a {
 .section {
   padding-inline: 5vw;
   height: 90vh;
+  margin-bottom: 2rem;
 }
 
 .section h2 {
@@ -110,6 +111,7 @@ a {
 }
 
 .flex-container{ 
+  gap:5rem;
   display: flex;
   align-items: center;
   width: 100%;
@@ -122,7 +124,6 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 16px;
   min-width: 50%;
   height: 80%;
 }
@@ -131,16 +132,19 @@ a {
   flex: 1 1;
 }
 
-.say {
-  background-image: url('./assets/wellcome2.png');
+.hero-img {
+  background-image: url('./assets/hero.png');
 }
 
-.me {
-  background-image: url('./assets/sayHI.png');
+.about-img {
+  border-radius: 26px;
+  background-size: cover;
+  background-image: url('./assets/me.jpg');
+  aspect-ratio: 1/1;
 }
 
-.call {
-  background-image: url('./assets/callme.png');
+.contact-image {
+  background-image: url('./assets/call.png');
 }
 
 .hero-text h1 {
@@ -302,10 +306,9 @@ a {
   color: var(--accent);
 }
 
-/* Footer */
 .site-footer {
   border-top: 1px solid var(--ring);
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer-inner {
@@ -320,10 +323,12 @@ a {
   }
 }
 
-/* Mobile Responsive */
-
 @media (max-width: 900px) {
+  .header-inner {
+    padding-block: 0.5rem;
+  }
   .flex-container {
+    padding-bottom: 1rem;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -338,10 +343,12 @@ a {
   .visual {
     order: -1;
     width: 100%;
-    height: 50%;
+    height: 80%;
   }
   
-
+  .hero-img {
+    background-image: url('./assets/hero_mobile.png');
+  }
   .cta {
     justify-content: center;
   }
@@ -381,7 +388,7 @@ a {
 
 @media (max-width: 600px) {
   .section{
-    padding-inline: 2vw;
+    padding-inline: 3vw;
   }
   .section-head {
     flex-direction: column;

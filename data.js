@@ -36,7 +36,7 @@ export const projects = [
 	{
 		title: "Say Hi",
 		description: "A friendly landing concept with soft typography and generous whitespace.",
-		image: "assets/sayHi.jpg",
+		image: "assets/hero1.png",
 		tags: ["HTML5", "CSS3", "JavaScript", "Vue.js"],
 		live: "#",
 		github: "#"
@@ -44,7 +44,7 @@ export const projects = [
 	{
 		title: "Welcome Series",
 		description: "Minimal hero composition exploring balance, scale, and quiet color.",
-		image: "/assets/sayHi.jpg",
+		image: "assets/hero1.png",
 		tags: ["HTML5", "CSS3", "MySQL", "Docker", "Bash", "Linux", "Python"],
 		live: "#",
 		github: "#"
@@ -52,7 +52,7 @@ export const projects = [
 	{
 		title: "Call Me",
 		description: "Playful yet restrained imagery supporting a crisp contact CTA.",
-		image: "assets/callme.png",
+		image: "assets/hero1.png",
 		tags: ["Angular", "React", "Bootstrap"],
 		live: "#",
 		github: "#"
