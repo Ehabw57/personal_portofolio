@@ -15,6 +15,7 @@ export const tags = [
   { name: "MongoDB", background: "#47A248", color: "#FFFFFF" },
   { name: "MySQL", background: "#4479A1", color: "#FFFFFF" },
   { name: "SQLite", background: "#003B57", color: "#FFFFFF" },
+  { name: "Redis", background: "#e03B57", color: "#3f0300" },
   
   { name: "Linux", background: "#FCC624", color: "#000000" }, 
   { name: "Git", background: "#F05032", color: "#FFFFFF" },
@@ -34,28 +35,52 @@ export const skillCategories = {
 
 export const projects = [
 	{
-		title: "Say Hi",
-		description: "A friendly landing concept with soft typography and generous whitespace.",
-		image: "assets/hero1.png",
-		tags: ["HTML5", "CSS3", "JavaScript", "Vue.js"],
-		live: "#",
-		github: "#"
+		title: "QuranLink",
+		description: "A web application designed to assist with memorizing the Holy Quran through interactive typing practice",
+		image: "assets/QuranLink.png",
+		tags: ["Python", "FastAPI", "MySQL", "JavaScript", "Vue.js"],
+		github: "https://github.com/Ehabw57/QuranLink"
 	},
 	{
-		title: "Welcome Series",
-		description: "Minimal hero composition exploring balance, scale, and quiet color.",
-		image: "assets/hero1.png",
-		tags: ["HTML5", "CSS3", "MySQL", "Docker", "Bash", "Linux", "Python"],
-		live: "#",
-		github: "#"
+		title: "ALX Learning Bot",
+		description: "AI-powered application designed to search for learning resources and generate quizzes for a specific topics",
+		image: "assets/AlxBot.png",
+		tags: ["Python", "FastAPI", "Redis", "React", "Tailwind CSS"],
+		github: "https://github.com/ALX-NULL/roundOf11",
+    demo: "https://github.com/user-attachments/assets/fb355bbb-96ed-4781-93a4-13231633b3bf"
 	},
 	{
-		title: "Call Me",
-		description: "Playful yet restrained imagery supporting a crisp contact CTA.",
-		image: "assets/hero1.png",
-		tags: ["Angular", "React", "Bootstrap"],
-		live: "#",
-		github: "#"
+		title: "PlayBlocks",
+		description: "A browser-based E-commerce game website created entirely using HTML, CSS, and JavaScript.",
+		image: "assets/playblocks.jpg",
+		tags: ["HTML5", "CSS3", "JavaScript"],
+		live: "https://www.itiqena.com/playblocks/login.html",
+		github: "https://github.com/Ehabw57/playblocks"
+	},
+	{
+		title: "Logger",
+		description: "A command-line tool designed for efficient management of employee logs and records.",
+		image: "./assets/logger.jpg",
+		tags: ["C", "SQLite", "Bash", "Linux"],
+		github: "https://github.com/Ehabw57/logger",
+		demo: "https://www.youtube.com/watch?v=RHmYFvXhE4Y"
+	},
+	{
+		title: "Geometry Dodge",
+		description: "A fun web-based game built with HTML Canvas, where player control a square to dodge incoming shapes.",
+		image: "assets/GeomatryDodge.png",
+		tags: ["HTML5", "CSS3", "JavaScript"],
+		live: "https://ehabw57.github.io/javaScript-Games/Circle_Dodge/",
+		github: "https://github.com/Ehabw57/javaScript-Games"
+	},
+
+	{
+		title: "Terminal Portofolio",
+    description: "Interactive portfolio replicating a tiling window manager environment with a terminal-style UI.",
+		image: "assets/TerminalPortofolio.jpg",
+		tags: ["HTML5", "CSS3", "JavaScript"],
+		live: "https://ehabw57.github.io/portofolio",
+		github: "https://github.com/Ehabw57/portofolio"
 	}
 ];
 
