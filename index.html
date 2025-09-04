@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <script type="module" src="module-script.js"></script>
+    <script src="https://kit.fontawesome.com/b132bd37bd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="site-header">
         <div id="balk" class="header-inner">
-          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"><i class="fa-solid fa-bars"></i></button>
             <a class="logo" href="#">Ehab Hegazy</a>
-            <nav class="nav" aria-label="Primary">
-                <ul id="nav-menu" class="nav-list">
+            <nav class="nav nav-list" aria-label="Primary">
+                <ul id="nav-menu" class="nav nav-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#work">Work</a></li>
+                    <li><a href="#work">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+            <button id="theme-toggle" class="theme-toggle"><i class="fa-solid fa-moon"></i></button>
         </div>
     </header>
 
@@ -30,11 +31,12 @@
         <section id="home" class="section">
             <div class="container flex-container">
                 <div class="hero-text">
-                    <h1>Hi, I'm <span class="accent">Ehab Hegazy</span>.</h1>
-                    <p>A minimalist developer and designer crafting clean, thoughtful experiences.</p>
+                  <h1>Hi, I'm <span class="accent">Ehab Hegazy</span>.</h1>
+                  <p>Full-Stack Developer, I build scalable web apps with MEARN, Python and (SQL, non-SQL) DBs.</p>
+
                     <div class="cta">
-                        <a class="button primary" href="#work">View Work</a>
-                        <a class="button" href="#contact">Contact</a>
+                        <a class="button primary" href="#work">My Work</a>
+                        <a class="button" href="#contact">Hire Me</a>
                     </div>
                 </div>
                 <div class="hero-img visual"></div>
@@ -46,20 +48,18 @@
                 <div class="about-img visual"> </div>
                 <div class="about-text">
                     <h2>About</h2>
-                    <p>I enjoy building elegant interfaces with attention to detail and performance. I value clarity, accessibility, and calm design.</p>
+                    <p>I’m Ehab, a passionate Full-Stack Web Developer with a deep love for programming and computer science. I thrive in the world of Linux and open-source technologies, constantly exploring systems at their core and experimenting hands-on. With a strong curiosity and an eagerness to learn, I’m always driven to discover new ideas, develop innovative solutions, and bring unique projects to life</p>
                     <div class="cta">
-                        <a class="button" href="#contact">Contact</a>
+                        <a class="button" href="/assets/My_CV.pdf"><i class="fa-solid fa-circle-down"></i>Download CV</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--hereeeeeeeeeeeeeeeeeeeeeee-->
-
         <section id="skills" class="section">
             <div class="section-head">
               <h2>Skills</h2>
-              <p>Focused, practical stacks divided by discipline.</p>
+              <p>Here’s an overview of the tools and skills I use to build my projects.</p>
             </div>
             <div id="skillsContainer"></div>
         </section>
@@ -67,7 +67,7 @@
         <section id="work" class="section">
                 <div class="section-head">
                     <h2>Porjects</h2>
-                    <p>Clean layouts, thoughtful interactions, purposeful visuals.</p>
+                    <p>I enjoy turning ideas into real projects—here are some highlights.</p>
                 </div>
                 <div id="projects"class="grid">
             </div>
@@ -77,16 +77,14 @@
             <div class="container flex-container">
                 <div class="contact-image visual"> </div>
                 <div class="contact-text">
-                    <h2>Contact</h2>
-                    <p>Seeking collaborations and opportunities. Let’s make something clear and useful.</p>
+                  <h2>Let’s Connect</h2>
+                  <p>I’m always excited to discuss new opportunities, collaborations, or just chat about tech. Reach me through:</p>
                     <ul class="contact-list">
-                        <li><a href="mailto:you@example.com">you@example.com</a></li>
-                        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
-                        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="mailto:maestro.ehab123@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                        <li><a href="https://www.linkedin.com/in/ehababdelrady" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://github.com/Ehabw57" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="https://wa.me/+201551854079?text=Hi%20Ehab%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20work!" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
                     </ul>
-                    <div class="cta">
-                        <a class="button" href="#contact">Contact</a>
-                    </div>
                 </div>
             </div>
         </section>

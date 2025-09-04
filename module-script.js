@@ -34,18 +34,18 @@ function renderSkills(){
 function renderProjects(){
   const grid = document.getElementById('projects');
   if(!grid) return;
-  grid.innerHTML = projects.map(p=>`
+  grid.innerHTML = projects.map(p => `
     <article class="card">
-    <div style="background-image: url('${p.image}');" class="card-media">
-    </div>
+    <div style="background-image: url('${p.image}');" class="card-media"></div>
     <div class="card-body">
     <h3>${p.title}</h3>
     <p>${p.description}</p>
     <ul class="tag-list">${createProjectTags(p.tags || [])}</ul>
     </div>
     <div class="card-actions">
-    <a class="button small primary" href="${p.live}" target="_blank" rel="noopener">Live Demo</a>
-    <a class="button small" href="${p.github}" target="_blank" rel="noopener">GitHub</a>
+    ${p.live ? `<a class="button small primary" href="${p.live}" target="_blank"><i class="fa-solid fa-up-right-from-square"></i>Live</a>` : ''}
+    ${p.github ? `<a class="button small" href="${p.github}" target="_blank"><i class="fab fa-github"></i> GitHub</a>` : ''}
+    ${p.demo ? `<a class="button small" href="${p.demo}" target="_blank"><i class="fa-solid fa-circle-play"></i>Demo</a>` : ''}
     </div>
     </article>
     `).join('');

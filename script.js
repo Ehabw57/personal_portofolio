@@ -7,7 +7,9 @@
   function applyTheme(mode) {
     if (mode === "dark") {
       root.setAttribute("data-theme", "dark");
+      btn.innerHTML = '<i class="fa-solid fa-sun"></i>'
     } else {
+      btn.innerHTML = '<i class="fa-solid fa-moon"></i>'
       root.removeAttribute("data-theme");
     }
   }
